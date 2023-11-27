@@ -1,4 +1,4 @@
-const date = [
+const data = [
   {
     id: 1,
     name: 'Bertie Yates',
