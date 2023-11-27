@@ -6,7 +6,7 @@ import {useState} from 'react'
 const App = () => {
   const [people, setPeople] = useState(data)
   const removePeople=(id)=>{
-    let newPeople = people.filter((person)=>{ return person.id != id})
+    let newPeople = people.filter((person)=>{ return person.id !== id})
     setPeople(newPeople)
   }
   return(
